@@ -1,15 +1,15 @@
 import '@testing-library/jest-dom';
-// import { server } from 'mocks/msw/rest-api/server';
+import { server } from 'mocks/msw/rest-api/server';
 jest.setTimeout(5000);
 
 beforeAll(() => {
-  // server.listen();
+  server.listen();
 });
 
 beforeEach(() => {
-  // server.resetHandlers();
+  server.resetHandlers();
 });
 
 afterAll(() => {
-  // server.close();
+  server.close();
 });
