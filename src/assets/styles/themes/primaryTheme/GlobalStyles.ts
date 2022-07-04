@@ -9,8 +9,8 @@ export const GlobalStyles = createGlobalStyle<GlobalStylesProps>`
   } 
   
   body {
-    font-family: ${({ theme }) => theme.fontFamilies.primary};
     background-color: ${({ theme }) => theme.colors.background};
+    font-family: ${({ theme }) => theme.fontFamilies.primary};
   }
    
   ::-webkit-scrollbar {
