@@ -1,4 +1,4 @@
 export * from './App';
-export * from './Results';
+export * from './Searcher';
 export * from './User';
 export * from './NotFound';
