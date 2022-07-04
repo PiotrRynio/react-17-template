@@ -1,7 +1,7 @@
 import exampleAvatar1 from '../images/example-avatar1.jpg';
-import { ExampleResponse } from '../types/ExampleResponse';
+import { ExampleDto } from 'types';
 
-export const exampleResponse: ExampleResponse = {
+export const exampleResponse: ExampleDto = {
   example: {
     id: '0',
     name: 'example name',
