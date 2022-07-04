@@ -8,7 +8,7 @@ type PageTitleContextType = {
 };
 
 const pageTitleContextDefaultValue = {
-  pageTitle: 'Github Issues App',
+  pageTitle: APP_NAME,
   setPageTitle: (newTitle?: string) => {},
 };
 
