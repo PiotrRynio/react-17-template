@@ -1,2 +1,3 @@
-export * from './usePageTitle/usePageTitle';
-export * from './useAppContext/useAppContext';
+export * from './usePageTitle';
+export * from './useAppContext';
+export * from './useDebounce';
