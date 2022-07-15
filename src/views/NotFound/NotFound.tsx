@@ -1,13 +1,9 @@
-import { useEffect } from 'react';
 import { usePageTitle } from 'hooks';
 import { Link, Typography } from 'components';
 import { APP_NAME } from 'constants/names';
 
 export const NotFound = () => {
-  const { setPageTitle } = usePageTitle();
-  useEffect(() => {
-    setPageTitle(`Not Found | ${APP_NAME}`);
-  }, [setPageTitle]);
+  usePageTitle(`Not Found | ${APP_NAME}`);
 
   return (
     <div>
